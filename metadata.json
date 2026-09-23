@@ -1,0 +1,10 @@
+{
+  "uuid": "auto-bluetooth-connect@archimetrix.github.io",
+  "name": "Auto Bluetooth Connect",
+  "description": "Automatically connects selected paired Bluetooth devices when your GNOME session starts.",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.auto-bluetooth-connect",
+  "url": "https://github.com/Archimetrix/auto-bluetooth-connect"
+}
