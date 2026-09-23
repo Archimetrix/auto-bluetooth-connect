@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.auto-bluetooth-connect"
+          path="/org/gnome/shell/extensions/auto-bluetooth-connect/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable automatic Bluetooth connection</summary>
+      <description>Connect selected Bluetooth devices automatically when the GNOME session starts.</description>
+    </key>
+
+    <key name="devices" type="as">
+      <default>[]</default>
+      <summary>Preferred Bluetooth devices</summary>
+      <description>Bluetooth MAC addresses to connect automatically.</description>
+    </key>
+  </schema>
+</schemalist>
